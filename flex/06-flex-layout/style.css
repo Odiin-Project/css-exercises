@@ -34,6 +34,12 @@ input {
 
 /* Changes */
 
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
 /* Header */
 
 .header{
@@ -58,7 +64,7 @@ ul{
 
 a{
   text-decoration: none;
-  color: #000;
+  color: #666;
 }
 
 /* Content */
@@ -69,6 +75,10 @@ a{
   justify-content: center;
   align-items: center;
   margin: 2.5rem;
+}
+
+button{
+  padding: 10px;
 }
 
 /* Footer */
